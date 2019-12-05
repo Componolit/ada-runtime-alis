@@ -1,0 +1,70 @@
+V "GNAT Lib v8"
+P ZX
+
+RN
+RV NO_ACCESS_SUBPROGRAMS
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_IMPLEMENTATION_ATTRIBUTES
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_IMPLICIT_LOOPS
+RV SPARK_05
+
+U ada.tags%b		a-tags.adb		36dff136 NE OL PK
+W ada%s			ada.ads			ada.ali
+
+U ada.tags%s		a-tags.ads		e1df8e41 EB NE OL PR PK
+W ada%s			ada.ads			ada.ali
+W system%s		system.ads		system.ali
+W system.storage_elements%s  s-stoele.adb	s-stoele.ali
+
+D ada.ads		00000000000000 76789da1 ada%s
+D a-tags.ads		00000000000000 89068b3b ada.tags%s
+D a-tags.adb		00000000000000 bfd97a0d ada.tags%b
+D system.ads		00000000000000 b7b1312c system%s
+D s-stoele.ads		00000000000000 a910a9f7 system.storage_elements%s
+X 1 ada.ads
+16K9*Ada 20e8 2|13r9 77r5 3|12r14 18r5
+X 2 a-tags.ads
+13K13*Tags 1|16k9 2|25E12 77l9 77e13 3|12b18 18l9 18t13
+18P9*Tag 21r22 31r50 36c9 37r31 39r22
+21p4*No_Tag{18P9} 39c4
+25K12 SSE=25:31 26r13 53r23 63r39 64r7 65r39 66r7 67r39 68r7 69r39 71r39
+28A12 Cstring{string}<integer> 29r35
+29P9 Cstring_Ptr(28A12) 30r31 44r28 45r28
+31A9 Tag_Table(18P9)<integer> 48r28
+32P9 Prim_Ptr 33r55
+33A9 Address_Array(32P9)<integer> 34r30 55r23 59r34
+34A12 Dispatch_Table{33A9}<integer> 36r27
+41R9 Type_Specific_Data 41d29 49e14
+41i29*Depth{natural} 48r44
+42i7*Access_Level{natural}
+43i7*Alignment{natural}
+44p7*Expanded_Name{29P9}
+45p7*External_Tag{29P9}
+46b7*Transportable{boolean}
+47b7*Needs_Finalization{boolean}
+48a7*Tags_Table{31A9}
+51R9 Dispatch_Table_Wrapper 51d33 56e14
+51i33*Procedure_Count{natural} 55r43
+52m7*Predef_Prims{4|93M9}
+53i7*Offset_To_Top{5|67I9}
+54m7*TSD{4|93M9}
+55a7*Prims_Ptr{33A9}
+58i4 Max_Predef_Prims{positive} 59r54
+59A12 Predef_Prims_Table{33A9}<integer> 60r42
+60P9 Predef_Prims_Table_Ptr(59A12) 61r31
+63i4 DT_Predef_Prims_Size{5|75I12} 72r54
+65i4 DT_Offset_To_Top_Size{5|75I12} 70r30 72r30
+67i4 DT_Typeinfo_Ptr_Size{5|75I12} 70r7 72r7
+69i4 DT_Offset_To_Top_Offset{5|75I12}
+71i4 DT_Predef_Prims_Offset{5|75I12}
+74P9 Addr_Ptr(4|93M9) 75r31
+X 4 system.ads
+63K9*System 2|10w14 11r14 25r24 52r23 54r23 64r50 66r50 68r50 74r28 4|194e11
+93M9*Address 2|52r30 54r30 74r35
+100N4*Storage_Unit 2|64r57 66r57 68r57
+X 5 s-stoele.ads
+52K16*Storage_Elements 2|11w21 25r31 5|133e28
+67I9*Storage_Offset<long_integer> 2|26r17 53r27
+75I12*Storage_Count{67I9} 2|63r43 64r11 65r43 66r11 67r43 68r11 69r43 71r43
+
